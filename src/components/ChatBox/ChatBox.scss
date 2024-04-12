@@ -1,0 +1,53 @@
+@import '../../styles/font.scss';
+
+.ChatBox{
+    height: 455px;
+    width: 328px;
+    border-radius: 8px;
+    box-sizing: border-box;
+    background-color: white;
+    box-shadow: 5px 5px #888888;
+    border: 1px solid #888888;
+    .HeaderBoxChat{
+        height: 50px;
+        background-color: aliceblue;
+        border-top-left-radius: 8px;
+        border-top-right-radius: 8px;
+        display: flex;
+        gap: 10px;
+        cursor: move;
+        display: flex;
+        align-items: center;
+        padding: 8px;
+        box-sizing: border-box;
+        @include title-small;
+        border-bottom: 1px solid #888888;
+        .avatar{
+            height: 30px;
+            width: 30px;
+            border-radius: 50%;
+            background-color: white;
+            @include title-large;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 1px solid #888888;
+        }
+        .user{
+            display: flex;
+            flex-direction: column;
+            .status{
+                @include body-small;
+                display: flex;
+                align-items: center;
+                gap: 5px;
+                .status-point{
+                    height: 5px;
+                    width: 5px;
+                    border-radius: 50%;
+                    display: block;
+                }
+            }
+        }
+    }
+}

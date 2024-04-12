@@ -1,0 +1,127 @@
+@mixin title-large {
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  
+  @mixin displayCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  @mixin alignCenter {
+    display: flex;
+    align-items: center;
+  }
+  
+  @mixin title-medium {
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.15000000596046448px;
+    text-align: center;
+  }
+  
+  @mixin title-small {
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0.10000000149011612px;
+    text-align: center;
+  
+  }
+  
+  @mixin body-small {
+    font-family: "Inter", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  
+  @mixin body-large {
+    //styleName: body/large;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    text-align: left;
+  }
+  
+  @mixin body-medium {
+    //styleName: body/medium;
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0.25px;
+    text-align: left;
+  
+  }
+  
+  @mixin label-large {
+    //styleName: label/large;
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0.10000000149011612px;
+    text-align: left;
+  }
+  
+  @mixin label-small {
+    //styleName: label/small;
+    font-family: "Inter", sans-serif;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0.25px;
+    text-align: left;
+  }
+  
+  @mixin label-large-prominent {
+    //styleName: label/large - prominent;
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0.10000000149011612px;
+    text-align: left;
+  
+  }
+  
+  @mixin headline-small {
+    //styleName: headline/small;
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  
+  @mixin label-medium{
+    font-family: "Inter", sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0.25px;
+    text-align: center;
+  
+  }
+  
+  html {
+    --logo-color: #0e0e0e;
+  }
+  
+  html[theme='dark'] {
+    --logo-color: #fff;
+  }

@@ -1,0 +1,7 @@
+@import '../../styles/font.scss';
+
+.Footer{
+    display: flex;
+    justify-content: center;
+    @include title-large;
+}
